@@ -38,12 +38,12 @@ abstract class PayExpresse
             ApiResponse::setToken($response['token']);
             ApiResponse::setRedirectUrl(Config::ROOT_URL_BASE . Config::PAYMENT_REDIRECT_PATH . $response['token']);
         }
-        else if(array_key_exists('error', $response)) 
+        else if (array_key_exists('error', $response)) 
         {
             ApiResponse::setSuccess(-1);
             ApiResponse::setErrors($response['error']);
         }
-        else if(array_key_exists('message', $response)) 
+        else if (array_key_exists('message', $response)) 
         {
             ApiResponse::setSuccess(-1);
             ApiResponse::setErrors($response['message']);
