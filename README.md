@@ -1,5 +1,14 @@
 # PayExpresse - PHP API Client
 
+[![Coverage Status](https://img.shields.io/badge/coverage-100%25-brightgreen)](https://coveralls.io/github/PapiHack/payexpresse-php-client?branch=master)
+![Issues](https://img.shields.io/github/issues/PapiHack/payexpresse-php-client)
+![PR](https://img.shields.io/github/issues-pr/PapiHack/payexpresse-php-client)
+[![Latest Stable Version](https://poser.pugx.org/papihack/payexpresse-php-client/v)](//packagist.org/packages/papihack/payexpresse-php-client)
+[![Total Downloads](https://poser.pugx.org/papihack/payexpresse-php-client/downloads)](//packagist.org/packages/papihack/payexpresse-php-client)
+[![Latest Unstable Version](https://poser.pugx.org/papihack/payexpresse-php-client/v/unstable)](//packagist.org/packages/papihack/payexpresse-php-client)
+[![License](https://poser.pugx.org/papihack/payexpresse-php-client/license)](//packagist.org/packages/papihack/payexpresse-php-client)
+[![Open Source Love](https://badges.frapsoft.com/os/v1/open-source.png?v=103)](https://github.com/ellerbrock/open-source-badges/)
+
 This is a simple `SDK Client` or `API Client` for `PayExpresse Online Payment Gateway`.
 
 Check out [PayExpresse Website](https://payexpresse.com/).
